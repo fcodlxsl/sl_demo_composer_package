@@ -1,0 +1,24 @@
+{
+    "name": "sl_demo_composer_package/narcissus-library",
+    "description": "Library Narcissus demo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SlDemoComposerPackage\\NarcissusLibrary\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SlDemoComposerPackage\\NarcissusLibrary\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Franciscodlx"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
